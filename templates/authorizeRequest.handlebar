@@ -33,7 +33,7 @@
       }
 
       function sendPostRequest(permissions) {
-        const url = '/auth/requests/{{record.id}}/';
+        const url = '/auth/requests/{{record.id}}';
         const password = document.getElementById('password').value;
         let callbackUrl;
         {{#if callbackUrl}}
